@@ -1,198 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
+    <title>Byggresursen Sverige AB – Lidingö</title>
+    <meta name="description"
+        content="Vi är ett lokalt byggföretag på Lidingö som tar hand om ditt projekt – från första skiss till sista penseldrag. Allt inom bygg, snickeri och måleri.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&family=Marcellus&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
-
-    <title>Byggresursen AB</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="logo-container">
-            <img class="logo" src="assets/logo.png" />
+    <header class="opening">
+        <nav class="nav" aria-label="Huvudmeny">
+            <a href="#om-oss">Om oss</a>
+            <a href="#tjanster">Tjänster</a>
+            <a href="#referenser">Referenser</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+        <div class="opening-center">
+            <h1 class="logo">
+                <img src="assets/logo.svg" width="1194" height="272"
+                    alt="Byggresursen Sverige AB – Lidingö – Vi bygger på förtroende">
+            </h1>
+            <p class="tagline">Allt inom bygg, snickeri och måleri</p>
         </div>
-        <ul>
-            <li><a href="#selected-project">Om oss</a></li>
-            <li><a href="#our-services">Tjänster</a></li>
-            <li><a href="#contact">Kontakt</a></li>
+        <ul class="service-words">
+            <li>Bygg</li>
+            <li>Snickeri</li>
+            <li>Måleri</li>
         </ul>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div>
-            <h2>förverkliga dina&nbsp;idéer</h2>
-            <div class="job-types">
-                <ul>
-                    <li>Totalentreprenader</li>
-                    <li>Nybyggnationer</li>
-                    <li>Renoveringar</li>
-                    <li>Badrum</li>
-                    <li>Kök</li>
-                </ul>
+    <main>
+        <section id="om-oss" class="section">
+            <div class="wrap">
+                <div class="column">
+                    <h2>Om oss</h2>
+                    <p>Vi är ett lokalt byggföretag på Lidingö som tar hand om ditt projekt – från första skiss till
+                        sista penseldrag. För privatpersoner, företag och bostadsrättsföreningar.</p>
+                </div>
+                <div class="photos">
+                    <figure class="photo photo--frame">
+                        <img src="assets/outdoor2.jpg" width="1600" height="1154" loading="lazy"
+                            alt="Stomme i lösvirke under uppförande, med utsikt över vattnet">
+                    </figure>
+                    <figure class="photo photo--site">
+                        <img src="assets/outdoor.jpg" width="1600" height="893" loading="lazy"
+                            alt="Gjuten grundplatta vid vattnet">
+                    </figure>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="selected-project" class="selected-project">
-        <div class="project-container">
-            <div class="project-item project-item-margin">
-                <h1>Om oss</h1>
-                <p>
-                    Vi har lång erfarenhet av att bygga exklusiva hus från grunden, både med traditionella
-                    lösvirkesmetoder och moderna modulbaserade konstruktioner. Vårt fokus ligger på kvalitet och
-                    anpassning för att skapa
-                    hem som uppfyller dina unika behov och önskemål. På Byggresursen hjälper vi dig med renoveringar
-                    och
-                    nybyggnation i såväl
-                    ny som gammal stil. Vi vet att detaljer och linjer är viktigt för att uppnå känslan av det lilla
-                    extra.
-                    Därför arbetar vi med noggrannhet och kvalitet i varje steg av processen.
-                </p>
-                <img class="selected-project-image" src="assets/outdoor2.png" alt="A bathroom">
-            </div>
-            <div class="project-item">
-                <div class="selected-project-image-container">
-                    <img class="selected-project-image" src="assets/outdoor.png" alt="A kitchen">
-                    <div id="references">
-                        <h1>Referenser</h1>
-                        <div class="reference">
-                            <h4>50 kvm altan samt lösvirke garage</h4>
-                            <p>
-                                "...utförde arbetet med precision, inom tid och hade alltid idéer och lösningar på de
-                                problem som dök upp. Vi var så nöjda att han sedan fick bygga ett garage som utfördes på
-                                samma professionella
-                                sätt."
-                                <br><br>
-                                /Måns
-                            </p>
+        <section id="tjanster" class="section">
+            <div class="wrap">
+                <h2>Våra tjänster</h2>
+                <div class="services">
+                    <div class="service">
+                        <h3>Bygg</h3>
+                        <div>
+                            <p class="service-lede">Renovering, om- och tillbyggnad – med helhetsansvar.</p>
+                            <p class="service-items">Badrum och våtrum, golv och väggar, fönster och dörrar, tak- och
+                                fasadarbeten, altaner och uterum, renovering och ombyggnation, totalentreprenad.</p>
                         </div>
-                        <div class="reference">
-                            <h4>80 kvm altan med tillhörande uterum</h4>
-                            <p>
-                                "...uppfattades som mycket professionell och kunnig inom yrket
-                                som snickare...Arbetsplatsen var prydlig trots pågende arbete. Byggresursen fick
-                                ytterligare uppdrag att bygga ett uterum vilket utfördes till stor belåtenhet."
-                                <br><br>
-                                /Johan
-                            </p>
+                    </div>
+                    <div class="service">
+                        <h3>Snickeri</h3>
+                        <div>
+                            <p class="service-lede">Måttanpassade lösningar och hantverk i trä.</p>
+                            <p class="service-items">Köksmontering, garderober och förvaring, inredning och
+                                specialsnickeri.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <h3>Måleri</h3>
+                        <div>
+                            <p class="service-lede">Hållbara ytor och rätt kulör – inne och ute.</p>
+                            <p class="service-items">Invändig och utvändig målning, tapetsering, spackling och
+                                slipning, färg- och materialrådgivning.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="our-services" class="selected-project brighter-section">
-        <div class="project-container">
-            <div class="project-item">
-                <h1>Våra Tjänster</h1>
-                <div>
-                    <h2>Totalentreprenader</h2>
-                    <p>
-                        Vi har många års erfarenhet av att hjälpa till med både små och stora byggprojekt, där vi bistår
-                        med allt från ritningar för att kunna planera ert projekt till inredning och slutligen ett
-                        nyckelfärdigt resultat. Vi arbetar tillsammans med väletablerade underentreprenörer som
-                        elektriker, rörmokare, plattsättare och plåtslagare, för att kunna kvalitetssäkra våra projekt.
-                    </p>
-                </div>
-                <div>
-                    <h2>Nybyggnationer</h2>
-                    <p>
-                        Vi hjälper er från start till mål med ert projekt, oavsett om det gäller monteringshus eller
-                        lösvirkeshus. Vi täcker hela byggprocessen, från markarbete och grundläggning till
-                        färdigställande av både exteriör och interiör. Med hjälp av pålitliga underentreprenörer
-                        säkerställer vi att allt utförs med högsta kvalitet. Vi bistår också under planeringsfasen och
-                        ser till att allt följer gällande byggregler, för att leverera ett hållbart och funktionellt
-                        hem.
-                    </p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div>
-                    <h2>Renoveringar</h2>
-                    <p>
-                        Vi hjälper er att förverkliga era renoveringsvisioner, vare sig det handlar om att lägga nytt
-                        golv i ett sovrum, renovera en hel bostad eller fräscha upp en lägenhet. Oavsett omfattningen på
-                        projektet, strävar vi alltid efter att leverera resultat som förenar funktion och estetik på ett
-                        stilfullt och harmoniskt sätt.
-                    </p>
-                </div>
-                <div>
-                    <h2>Badrum</h2>
-                    <p>
-                        Vi tar hand om hela processen för att planera och genomföra er badrumsrenovering. Vi skapar
-                        detaljerade ritningar och ger er förslag på hur badrummet kan utformas. Med ett tydligt
-                        tidsschema hanterar vi projektet från start till färdigställande och sköter all kontakt med
-                        underentreprenörer, så att renoveringen fortlöper smidigt och professionellt.
-                    </p>
-                </div>
-                <div>
-                    <h2>Kök</h2>
-                    <p>
-                        Köket är en plats där många stunder delas med vänner och familj, och därför hjälper vi er att
-                        skapa ett vackert och trivsamt kök. Oavsett om ni vill renovera eller göra en total omvandling,
-                        står vi redo att hjälpa till. Vi samarbetar med ett noggrant utvalt team av experter inom el,
-                        VVS och andra områden för att säkerställa högsta kvalitet i varje steg av projektet.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="brighter-section">
-        <h1>Kontakt</h1>
-        <p><a href="mailto:info@byggresursen.com">info@byggresursen.com</a></p>
-        <br /><br />
-        <a class="uc-logo" href="https://www.uc.se/risksigill2?showorg=5594366584&language=swe"
-            title="Sigillet är utfärdat av UC AB. Klicka på bilden för information om UC:s Riskklasser."
-            target="_blank">
-            <img src="https://www.uc.se/ucsigill2/sigill?org=5594366584&language=swe&product=psa&fontcolor=w&type=svg"
-                style="border:0;" />
-        </a>
-    </section>
+        <section id="referenser" class="section">
+            <div class="wrap">
+                <h2>Referenser</h2>
+                <figure class="reference">
+                    <blockquote>
+                        <p>”...utförde arbetet med precision, inom tid och hade alltid idéer och lösningar på de
+                            problem som dök upp. Vi var så nöjda att han sedan fick bygga ett garage som utfördes på
+                            samma professionella sätt.”</p>
+                    </blockquote>
+                    <figcaption>Måns, 50 kvm altan samt lösvirke garage</figcaption>
+                </figure>
+                <hr class="rule">
+                <figure class="reference">
+                    <blockquote>
+                        <p>”...uppfattades som mycket professionell och kunnig inom yrket som snickare...Arbetsplatsen
+                            var prydlig trots pågående arbete. Byggresursen fick ytterligare uppdrag att bygga ett
+                            uterum vilket utfördes till stor belåtenhet.”</p>
+                    </blockquote>
+                    <figcaption>Johan, 80 kvm altan med tillhörande uterum</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Byggresursen Sverige AB</p>
+    <footer id="kontakt" class="contact">
+        <div class="wrap">
+            <h2>Kontakta oss idag</h2>
+            <p class="contact-lede">för en offert eller ett första möte</p>
+            <form class="rfq" action="skicka.php" method="post">
+                <div class="field">
+                    <label for="rfq-namn">Namn <span aria-hidden="true">*</span></label>
+                    <input id="rfq-namn" name="namn" type="text" autocomplete="name" maxlength="100" required
+                        aria-describedby="rfq-namn-fel">
+                    <p class="field-error" id="rfq-namn-fel"></p>
+                </div>
+                <div class="field">
+                    <label for="rfq-epost">E-post <span aria-hidden="true">*</span></label>
+                    <input id="rfq-epost" name="epost" type="email" autocomplete="email" required
+                        aria-describedby="rfq-epost-fel">
+                    <p class="field-error" id="rfq-epost-fel"></p>
+                </div>
+                <div class="field">
+                    <label for="rfq-telefon">Telefon</label>
+                    <input id="rfq-telefon" name="telefon" type="tel" autocomplete="tel" maxlength="30"
+                        aria-describedby="rfq-telefon-fel">
+                    <p class="field-error" id="rfq-telefon-fel"></p>
+                </div>
+                <div class="field">
+                    <label for="rfq-typ">Typ av projekt</label>
+                    <select id="rfq-typ" name="typ">
+                        <option value="" selected>Välj…</option>
+                        <option>Bygg</option>
+                        <option>Snickeri</option>
+                        <option>Måleri</option>
+                        <option>Annat</option>
+                    </select>
+                </div>
+                <div class="field field--full">
+                    <label for="rfq-plats">Var ligger projektet?</label>
+                    <input id="rfq-plats" name="plats" type="text" autocomplete="street-address" maxlength="150"
+                        aria-describedby="rfq-plats-fel">
+                    <p class="field-error" id="rfq-plats-fel"></p>
+                </div>
+                <div class="field field--full">
+                    <label for="rfq-beskrivning">Beskriv projektet <span aria-hidden="true">*</span></label>
+                    <textarea id="rfq-beskrivning" name="beskrivning" rows="5" maxlength="5000" required
+                        aria-describedby="rfq-beskrivning-fel"></textarea>
+                    <p class="field-error" id="rfq-beskrivning-fel"></p>
+                </div>
+                <div class="rfq-trap" aria-hidden="true">
+                    <label for="rfq-webbplats">Lämna tomt</label>
+                    <input id="rfq-webbplats" name="webbplats" type="text" tabindex="-1" autocomplete="off">
+                </div>
+                <input type="hidden" name="t" value="">
+                <p class="rfq-status" role="alert" hidden></p>
+                <div class="rfq-actions">
+                    <p class="rfq-note">Vi använder dina uppgifter enbart för att besvara din förfrågan.</p>
+                    <button class="rfq-button" type="submit">Skicka förfrågan</button>
+                </div>
+            </form>
+
+            <div class="rfq-sent" hidden>
+                <h3 class="rfq-sent-title" tabindex="-1">Tack.</h3>
+                <p>Vi har tagit emot din förfrågan och hör av oss så snart vi kan.</p>
+            </div>
+
+            <p class="contact-alt">Eller mejla oss direkt: <a
+                    href="mailto:info@byggresursen.com">info@byggresursen.com</a></p>
+            <a class="uc-seal" href="https://www.uc.se/risksigill2?showorg=5594366584&amp;language=swe"
+                target="_blank" rel="noopener"
+                title="Sigillet är utfärdat av UC AB. Klicka på bilden för information om UC:s Riskklasser.">
+                <img src="https://www.uc.se/ucsigill2/sigill?org=5594366584&amp;language=swe&amp;product=psa&amp;fontcolor=w&amp;type=svg"
+                    alt="UC Riskklass-sigill för Byggresursen Sverige AB">
+            </a>
+            <p class="copyright">© 2026 Byggresursen Sverige AB</p>
+        </div>
     </footer>
-
-    <script>
-        // Smooth scroll function
-        function smoothScroll(target) {
-            const element = document.querySelector(target);
-            let elementPosition = element.getBoundingClientRect().top;
-            if (target === '#references') {
-                elementPosition = elementPosition - 40;
-            }
-            const offsetPosition = elementPosition + window.scrollY;
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: 'smooth'
-            });
-        }
-
-        // Add event listeners to navigation links
-        const navLinks = document.querySelectorAll('nav ul li a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', (event) => {
-                event.preventDefault();
-                const target = link.getAttribute('href');
-                smoothScroll(target);
-            });
-        });
-    </script>
+    <script src="rfq.js" defer></script>
 </body>
 
 </html>
